@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    color: #efd28d;
+    background-color: #004777;
+    text-decoration: 2px solid #00afb5;
+    padding: 40px;
+    font-size: 10vw;
+    font-style: oblique;
+    text-align: center;
+}
+#logo2{
+    color: #efd28d;
+     font-size: 5vw;
+     font-style: italic;
+     font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: #efd28d;
+    min-width: min-content;
+}
+.btn{
+    background-color: #efd28d;
+    color: #786552;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #efd28d;
+    padding: 10px;
+    min-width: min-content;
+}
+.btn:hover{
+    background-color: #786552;
+    color: #efd28d;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    
+}
+.destination-btn{
+    background-color: #efd28d;
+    color: #786552;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border: 2px solid #efd28d;
+    padding: 10px;
+    min-width: min-content;
+}
+.destination-btn:hover{
+    background-color: #786552;
+    color: #efd28d;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: #efd28d;
+    color: #786552;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #efd28d;
+    padding: 10px;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background-color: #efd28d;
+    color: #786552;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #efd28d;
+    padding: 10px;
+}
+.dropdown-menu button{
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #786552;
+    background-color: #efd28d;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #efd28d;
+   
+}
+.dropdown-menu button:hover{
+    color: #efd28d;
+    background-color: #786552;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding-bottom: 4vh;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+#Intro1{
+    margin-bottom: 0;
+    font-size: medium;
+    padding: 3rem;
+    width: 70vw;
+    min-width: min-content;
+}
+#body1{
+    background-image: url(aitplane\ logo.png);
+    padding-bottom: 10vh;
+    background-size:  contain;
+    margin-left: 1vw;
+    min-width: min-content;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8vw;
+    background-size: 32vw;
+    width: 2vw;
+    padding-left: 10vw;
+    background-repeat: no-repeat;
+    background-position: 60cap;
+    color: #004777;
+}
+.Para{
+    margin-right: 30vw;
+    font-size: 1.5vw;
+}
+#details{
+    background-color: #004777;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4rem;
+    margin-top: 5vw;
+    font-size: 1vw;
+}
+#heading{
+    color: #00afb5;
+    font-size: 2rem;
+}
+.Info{
+    background-color: #efd28d;
+    color: #786552;
+    margin: 1rem;
+    border-radius: 30px;
+    border-left: 4px dashed #54493d;
+    padding: 3rem;
+    width: 80vw;
+    margin-left: 3rem;
+    min-width: min-content;
+}
+.Info2{
+    background-color: #efd28d;
+    color: #786552;
+    margin: 1vw;
+    border-radius: 30px;
+    border-left: 4px dashed #54493d;
+    padding: 3vw;
+    width: 80vw;
+    margin-left: 3rem;
+    min-width: min-content;
+}
+.head{
+    color: #004777;
+    font-size: 5vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.Package-btn1{
+    background-color: #004777;
+    color: aliceblue;
+    border: 2px solid #004777;
+    border-radius: 8px;
+    padding: 10px;
+     padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 15vw;
+    margin-bottom: 3vh;
+    margin-top: 1.5vh;
+    font-size: 1vw;
+}
+.Package-btn2{
+    background-color: #004777;
+    color: aliceblue;
+    border: 2px solid #004777;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-right: 3vw;
+    margin-left: 15vw;
+    margin-bottom: 3vh;
+    margin-top: 1.5vh;
+    font-size: 1vw;
+}
+.Package-btn3{
+    background-color: #004777;
+    color: aliceblue;
+    font-size: 1vw;
+    border-radius: 8px;
+    padding: 1vw;
+    border: 2px solid #004777;
+    margin-top: 0.5rem;
+    margin-left:50vw ;
+}
+#form{
+    margin: 4vw;
+    margin-bottom: 1.8vw;
+    background-color: rgba(0, 150, 199, 0.6);
+    border-radius: 30px;
+    border-left:4px solid #001233;
+    padding: 1vw;
+}
+.form-heading{
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+    color: #001233;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.placeholder{
+    margin-left: 3vw;
+    margin-top: 1.5vw;
+    padding: 0.8vw;
+    padding-right: 3vw;
+    border: 2px solid #001233;
+    border-radius: 4px; 
+}
+#comment{
+    margin-left: 3vw;
+    margin-top: 1.5vw;
+    padding: 1vw;
+    padding-right: 3vw;
+    border: 2px solid #001233;
+    border-radius: 4px; 
+}
+#form2{
+    margin: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-right:2vw;
+}
+#Submit
+{
+    margin-bottom: 2vh;
+    margin-left: 80vw;
+    padding: 1vw;
+    border-radius: 8px;
+    border: 2px solid #001233;
+    color: #00afb5;
+    background-color: #001233;
+    font-size: 1.5vw;
+}
+.head1{
+    color: #001233;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5rem;
+    font-size: 4vw;
+}
+#packageName{
+    text-align: center;
+    font-size: 3rem;
+    color: #004777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 30px;
+}
+.contact{
+ color: #001233;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.cont-para{
+color: #54493d;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cont-para2{
+    color: #004777;
+    text-decoration: underline #004777;
+}
+#Info{
+    margin: 5rem;
+    border-radius: 30px;
+    border: 2px solid #54493d;
+    background-color:#efd28d ;
+    padding: 3rem;
+}
+#details a{
+       font-size:1vw ;
+       color:aliceblue;
+    }
+@media (orientation: portrait){
+    .Para{
+        font-size: 12px;
+        margin-right: 15vw;
+    }
+    .Info{
+        width: 50vw;
+    }
+    .Info p{
+        font-size: 2vw;
+    }
+    .Info h2{
+        font-size: 3vw;
+    }
+    .Info2{
+        width: 30vw;
+    }
+    .head{
+       font-size: 7vw;
+    }
+    .Info2 p{
+        font-size: 2vw;
+    }
+    .Info2 h2{
+        font-size: 3vw;
+    }
+    #heading{
+        font-size: 16px;
+    }
+    .navbar{
+        height: 10vw;
+    }
+    .btn{
+        height: 4vw;
+        font-size: 2vh;
+        font-size: 2vw;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .btn:hover{
+        height: 4vw;
+        font-size: 2vh;
+        font-size: 2vw;
+        text-align: center;
+        padding: 20px;
+        padding-top: 15px;
+        border-radius :30px;
+    }
+    
+    .destination-btn{
+        height: 3vh;
+        font-size: 2vh;
+        font-size: 2vw;
+        text-align: center;
+        padding-block: 3px;
+        border-radius: 30px;
+    }
+    .destination-btn:hover{
+         
+        font-size: 2vh;
+        font-size: 2vw;
+        text-align: center;
+        padding: 20px;
+        padding-top: 15px;
+        border-radius :30px;
+    }
+    .dropdown-menu{
+        min-height: min-content;
+        min-width: min-content;
+        height: 1vh;
+    }
+    #body1{
+       background-image: none;
+    }
+    .dropdown-menu button{
+        text-align: center;
+        padding: 10px;
+        padding-top: 15px;
+        border-radius :30px;
+        border: none;
+        height: 0.5vh;
+        font-size: 2vw;
+    }
+    .dropdown-menu button:hover{
+    
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        border-radius :30px;
+        border: none;
+        height: 3vw;
+        font-size: 2vw;
+    }
+   
+    #details a{
+       font-size:2vw ;
+       color:aliceblue;
+    }
+    #details p{
+        font-size: 2vw;
+    }
+    .contact{
+        font-size:4vw;
+    }
+    .cont-para{
+        font-size: 2vw;
+    }
+    .cont-para2{
+        font-size: 2vw;
+    }
+    #form2{
+        grid-template-columns: 1fr;
+        margin-left: 0.5vw;
+    }
+    #Date{
+        display: none;
+    }
+    #Travelers{
+        display: none;
+    }
+   
+}
+@media (min-aspect-ratio: 0.98/1) and (max-aspect-ratio: 1.8/1){
+    #form2{
+      grid-template-columns: 1fr 1fr;
+    }
+    .placeholder{
+        padding: 1vw;
+        margin-right: 1vw;
+       min-width: min-content;
+    }
+    #form{
+        padding-right: 1.5vw;
+        margin-right: 4vw;
+    }
+    #Submit{
+       padding:1vw;
+    }
+    .Info{
+        width: 70vw;
+    }
+    .Info p{
+        font-size: 1.75vw;
+    }
+    .Info h2{
+        font-size: 2.5vw;
+    }
+    #body1{
+       background-image: none;
+    }
+}
